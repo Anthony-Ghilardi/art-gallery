@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-container h1 {
+  width: 50%;
+  text-align: center;
+}
+
+.gallery-container img {
+  width: 50%;
+}
+
+.gallery-container p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
